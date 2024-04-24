@@ -1,0 +1,59 @@
+body
+{
+	margin: 0;
+	height: 100%;
+}
+
+.custom-bg
+{
+	background-color:skyblue;
+	
+}
+
+.text-color
+{
+	color:#030e12;
+}
+
+.admin .card{
+	border: 2px solid #000080;
+}
+
+.card-columns:hover{
+	background-size: cover;
+	cursor:pointer;
+}
+
+.card:hover{
+	background-size: cover;
+	cursor:pointer;
+}
+
+.list-group-item-action active
+{
+	background:#c0c0c0;
+	color: white;
+	border-color:black;
+}
+
+.mid-align:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+    
+ }
+ 
+ .non-underline-link{
+   text-decoration: none !important;
+}
+
+.bcontent {
+            margin-top: 10px;
+        }
+        
+        .modal-size {
+    max-width: 80% !important;
+}
+        
